@@ -23,7 +23,7 @@ void remove(int k,int v,int n)
 {
     int ind=h(k,n);
     int i=1;
-    while(arr[ind]!=k)
+    while(arr[ind]!=v)
     {
         ind=(ind+i)%n;
         i++;
